@@ -10,11 +10,14 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
+  align-items: stretch;
 }
 
 nav {
   background-color: rgb(39, 153, 137);
   color: white;
+  display: flex;
+  padding: 1rem;
 }
 
 .middle {
@@ -24,6 +27,7 @@ nav {
 
 form {
   background-color: rgb(255, 200, 69);
+  height: 100vh;
 }
 
 .btn ´ {
@@ -33,6 +37,8 @@ form {
 
 ul {
   margin: 0;
+  list-style-type: none;
+  display: flex;
 }
 
 h2 {
